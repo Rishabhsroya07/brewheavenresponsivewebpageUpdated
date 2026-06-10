@@ -76,20 +76,31 @@ Contact Information
 Requirement:
 
 Google Fonts
+
 Modern Color Scheme
+
 Hover Effects
+
 Responsive Design
 
 Implemented:
 
 Used Google Fonts (Poppins) for modern typography.
+
 Applied a coffee-themed color palette.
+
 Added hover effects, gradients, shadows, and transitions.
+
 Implemented responsive layouts using:
+
 Flexbox
+
 CSS Grid
+
 Media Queries
+
 🛠️ Technologies Used
+
 HTML5
 CSS3
 Flexbox
@@ -98,12 +109,19 @@ Font Awesome Icons
 Google Fonts
 
 📚 Skills Demonstrated
+
 Semantic HTML5 Structure
+
 Modern CSS Styling
+
 Responsive Web Design
+
 Dropdown Navigation
+
 Grid & Flexbox Layouts
+
 UI/UX Design Principles
+
 Hover Effects & Animations
 
 🚀 Outcome
