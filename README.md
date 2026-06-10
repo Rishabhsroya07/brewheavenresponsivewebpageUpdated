@@ -19,6 +19,7 @@ Implemented:
 Created a responsive navigation bar with the Brew Haven brand logo.
 Added navigation links for Home, Features, Services, and Contact.
 Implemented a CSS-based dropdown menu under the Services section.
+
 2. Hero Section ✅
 
 Requirement:
@@ -35,6 +36,7 @@ Added an attractive hero section with the heading:
 Included a descriptive tagline.
 Added an Order Now CTA button.
 Used a high-quality coffee-themed background image with a dark overlay for better readability.
+
 3. Features Section ✅
 
 Requirement:
@@ -51,6 +53,7 @@ Organic Ingredients
 Loved by Customers
 Used Font Awesome icons to enhance visual appeal.
 Added hover animations for interactive user experience.
+
 4. Footer Section ✅
 
 Requirement:
@@ -67,6 +70,7 @@ Copyright © 2025
 Privacy Policy
 Terms
 Contact Information
+
 5. Modern Styling & Responsiveness ✅
 
 Requirement:
@@ -92,6 +96,7 @@ Flexbox
 CSS Grid
 Font Awesome Icons
 Google Fonts
+
 📚 Skills Demonstrated
 Semantic HTML5 Structure
 Modern CSS Styling
@@ -100,6 +105,7 @@ Dropdown Navigation
 Grid & Flexbox Layouts
 UI/UX Design Principles
 Hover Effects & Animations
+
 🚀 Outcome
 
 Successfully developed a modern and responsive landing page that fulfills all the internship task requirements, demonstrating proficiency in front-end web development fundamentals and responsive UI design.
