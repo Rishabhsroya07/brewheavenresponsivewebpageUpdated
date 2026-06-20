@@ -127,3 +127,38 @@ Hover Effects & Animations
 🚀 Outcome
 
 Successfully developed a modern and responsive landing page that fulfills all the internship task requirements, demonstrating proficiency in front-end web development fundamentals and responsive UI design.
+
+#  Brew Haven Coffee Shop - Web Development Internship
+
+Welcome to the **Brew Haven** multi-page website project! This repository contains the source code developed for **Task 2** of the Full Stack Web Development Internship, building upon the foundational landing page designed in Task 1.
+
+---
+
+## 🚀 What's New: Updates from Task 1 to Task 2
+
+Over the past week, the project was scaled from a simple single-page landing site into a fully functional, structured multi-page website. Below are the explicit updates made to fulfill the Task 2 guidelines:
+
+### 📂 Architecture & Page Layout Updates
+*   **Multi-Page Migration:** Replaced the single-page layout with a fully interconnected 3-page ecosystem: **Home** (`index.html`), **About** (`about.html`), and **Contact** (`contact.html`)[cite: 1].
+*   **Persistent & Responsive Navigation:** Built an global responsive navigation bar that allows seamless traversal across all pages on both desktop and mobile layouts.
+*   **Dynamic Class States:** Implemented active state links (`class="active"`) to visually inform users which page they are currently browsing.
+
+### ✍️ Functional Additions
+*   **Interactive Contact Form:** Designed and integrated a functional user submission form collecting Name, Email, and Message strings[cite: 1].
+*   **Client-Side JavaScript Validation:** Engineered custom frontend script checking mechanisms (`script.js`) that intercept submit hooks, alert the user if critical fields (Name/Email) are left empty, and prevent submission defaults until requirements are cleared[cite: 1].
+
+### 🎨 Visual & Technical Fixes
+*   **Custom Branding Integration:** Retired the text/emoji layout from Task 1 and integrated a custom high-quality brand icon asset (`logo.png`).
+*   **Aspect Ratio Layout Correction:** Patched an issue causing visual image distortion (horizontal oval stretching) by locking explicit dimensions (`height`/`width`) along with an `object-fit: contain` rule in the stylesheet[cite: 3].
+
+---
+
+## 🛠️ Project Structure & Tech Stack
+
+```text
+├── index.html       # Updated Home Page (Hero Layout & Feature Matrix)
+├── about.html       # Brand Narrative / Story Page
+├── contact.html     # User Contact Form Entry
+├── style.css        # Centralized Grid/Flexbox Layout Responsive System
+├── script.js        # Core JavaScript Data Validation Engine
+└── logo.png         # High-resolution Brand Logo Asset
