@@ -162,3 +162,43 @@ Over the past week, the project was scaled from a simple single-page landing sit
 ├── style.css        # Centralized Grid/Flexbox Layout Responsive System
 ├── script.js        # Core JavaScript Data Validation Engine
 └── logo.png         # High-resolution Brand Logo Asset
+# ☕ Brew Haven Coffee Shop - Web Development Internship
+
+Welcome to the **Brew Haven** multi-page website project! This repository contains the source code developed for **Task 3** of the Full Stack Web Development Internship, advancing the multi-page design from Task 2 into a data-driven interactive application.
+
+---
+
+## 🚀 What's New: Updates from Task 2 to Task 3
+
+In this task, the static 3-page website was updated with interactive frontend programming. The website can now process user input securely on the client side, persist form entries across browser restarts, and dynamically render data on a dedicated dashboard interface.
+
+### ⚙️ JavaScript Interactivity & Client-Side Logic
+* **Modern Submission Handling:** Replaced the inline `onsubmit` attributes with clean, asynchronous JavaScript event listeners (`addEventListener("submit")`) in `script.js` to gain full control over form hooks.
+* **State Control:** Implemented `e.preventDefault()` inside the event handler to stop default browser execution and page refreshing, making sure data operations complete smoothly first.
+
+### 📋 Advanced Form Validation
+* **Comprehensive String Sanitation:** Integrated field retrieval strings using `.value.trim()` to wipe out empty spaces and evaluate actual user inputs.
+* **Empty Field Prevention:** Implemented client-side conditional checks that inspect the Form context. If **Name**, **Email**, or **Message** fields are missing data, it stops submission and triggers a clear warning alert.
+
+### 💾 LocalStorage Persistence & Dynamic Routing
+* **Client Storage Engine:** Built an array-based data pipeline converting form entry dictionaries into JSON strings using `JSON.stringify()` and caching them into the browser's persistent `localStorage`.
+* **Automatic Navigation Routing:** Programmed an automatic client redirect rule via `window.location.href = "submissions.html"` immediately following a successful submission event.
+
+### 📊 Dynamic Submissions Dashboard (`submissions.html`)
+* **New Portal Layout:** Created an entirely new page layout called `submissions.html` and integrated it cleanly into the responsive navigation menu across all other pages.
+* **Data Parsing Loop:** Added dashboard initialization script logic using `JSON.parse(localStorage.getItem("contacts"))` to pull raw cache blocks back into live arrays.
+* **Dynamic DOM Manipulation:** Implemented dynamic list rendering with structural template literals via `.innerHTML` loops. It maps each user's recorded Name, Email, and Message into dedicated visual feedback items.
+* **Fallback Empty States:** Added conditional rendering logic to display a placeholder message ("No submissions found.") whenever the storage array is blank.
+
+---
+
+## 🛠️ Updated Project Structure
+
+```text
+├── index.html          # Home Page (Hero Layout & Feature Matrix)
+├── about.html          # Brand Story / Narrative Page
+├── contact.html        # Updated Contact Form Page (Targeted Form IDs)
+├── submissions.html    # NEW: Live Feedback Dashboard 
+├── style.css           # Centralized layout responsive styling system
+├── script.js           # Core JavaScript Validation & LocalStorage Engine
+└── logo.png            # High-resolution Brand Logo Asset
